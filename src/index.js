@@ -12,7 +12,7 @@ import Home from './components/Home-Page/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <I18nextProvider i18n={i18n}>
-    <Home />
+    <App />
   </I18nextProvider>,
 );
 // index.js
