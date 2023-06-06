@@ -1,0 +1,69 @@
+.homepage-footer-section{
+background: #ff5b5b;
+padding-top: 22px;
+}.home-page-footer-heading{
+    color: #ffffff;
+font-family: Heebo;
+font-size: 23px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: right;
+/* Text style for "?, מתלבטים" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}.home-page-footer-heading2{
+    color: #ffffff;
+font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: right;
+/* Text style for "?, מתלבטים" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}.roundedInput {
+    border-radius: 20px;
+  }
+  .mat .MuiOutlinedInput-root{
+    position: relative;
+    border-radius: 33px;
+}.mat .MuiOutlinedInput-input {
+    padding: 6px 0px;
+}.mat .MuiTypography-colorTextSecondary {
+color: white;
+margin-bottom: 6px;
+}.mat button{
+    
+        left: 57px;
+        /* left: 37px; */
+        width: 196px;
+        height: 34px;
+        border-radius: 50px;
+        background-color: #ffffff;
+        bottom: 3px;
+        color: #fe2f37;
+        font-family: Heebo;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: right;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    
+}.mat .MuiOutlinedInput-notchedOutline{
+    border: 1px solid white;
+    border-radius: 33px;
+}.mat button :hover{
+    background-color: white;
+}.mat .MuiButton-root:hover {
+    background-color: white
+}

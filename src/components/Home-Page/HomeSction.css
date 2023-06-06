@@ -1,0 +1,109 @@
+.heartimage-home-page img{
+    max-width: 100%;
+    width: 388px;
+}
+.heartimage-home-page {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+ 
+}.image-data-home-page img {
+    width: 271px;
+    margin-top: 130px;
+    max-width: 100%;
+}.matchmaker-dev h3{
+    color: #ffffff;
+font-family: Heebo;
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "צוות השדכנ" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.matchmaker-dev h2{
+    color: #ffffff;
+font-family: Heebo;
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "צוות השדכנ" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}.attribute-pe p{
+    color: #ffffff;
+font-family: Heebo;
+font-size: 20px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "צוות שדכני" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}.home-page-button-color-data{
+    display: flex;
+}.social-network {
+    padding-top: 287px;
+    display: flex;
+    padding-left: 116px;
+    flex-direction: column;
+    /* justify-content: end; */
+    top: 23px;
+}.font-icon-social-icon {
+    border: 1px solid white;
+    width: 33px;
+    height: 31px;
+    border-radius: 75px;
+    padding-left: 9px;
+    padding-bottom: 2px;
+    margin-bottom: 13px;
+    padding-top: 5px;
+}
+.heart-fixed-small1 {
+    position: absolute;
+    top: 12;
+    left: 212px;
+    top: 294px;
+}.heart-fixed-small2 {
+    position: absolute;
+    top: 12;
+    left: 400px;
+    top: 294px;
+}.heart-fixed-small3 {
+    position: absolute;
+    top: 12;
+    /* width: 23px; */
+    left: 217px;
+    top: 114px;
+}.heart-fixed-small3 img{
+ width: 23px
+}.heart-fixed-small2 img{
+    width: 23px
+   }.heart-fixed-small1 img{
+    width: 23px
+   }
+   .image-animation {
+    position: relative;
+    animation: slide 10s infinite linear;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    40% {
+      top: 40%;
+    }
+  }
+  

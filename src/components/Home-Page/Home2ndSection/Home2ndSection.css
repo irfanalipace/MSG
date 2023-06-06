@@ -1,0 +1,55 @@
+.Home2nd-Section-page{
+    background-color: #0c0e10;
+}.img-fluid {
+    max-width: 100%;
+    height: 276px;
+    max-height: 100%;
+}.nd-section-text-home-page-heading h4{
+    color: #ffffff;
+    font-family: Heebo;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: right;
+    /* Text style for "האתר שעובד" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}.nd-section-text-home-page-heading h3{
+    color: #ffffff;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: right;
+    /* Text style for "האתר שעובד" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}.nd-section-text-home-page-p p{
+    color: #ffffff;
+    font-family: Heebo;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: right;
+    /* Text style for "האתר שעובד" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}.div-pagragrap-home-page-secound-dev{
+    padding-top: 100px;
+    padding-right: 49px;
+    right: 3px;
+}.container-page-home-sction-dev{
+    height: 390px;
+    /* padding-bottom: 33px; */
+    bottom: 12px;
+    max-height: 100%;
+}
