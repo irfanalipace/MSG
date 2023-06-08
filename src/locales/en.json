@@ -49,8 +49,31 @@
   
 "The site that works for you":"The site that works for you",
  "Even when you sleep":"Even when you sleep",
- "Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?":"Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?"
+ "Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?":"Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?",
 
+ "the site that works for you even when you sleep":"the site that works for you even when you sleep",
 
-
+ "..the site that works for you even when you are asleep":"..the site that works for you even when you are asleep",
+ "First Name":"First Name",
+ "Last Name":"Last Name",
+ "Email":"Email",
+ "Job":"Job",
+ "Independent":"Independent",
+ "religious view":"religious view",
+ "personal situation":"personal situation",
+ "Date of birth":"Date of birth",
+ "Male":"Male",
+ "Female":"Female",
+ "Sex":"Sex",
+ "Hometown":"Hometown",
+ "Health Condition":"Health Condition",
+ "Phone Number":"Phone Number",
+ "Height":"Height",
+ "Brief Self Description":"Brief Self Description",
+ "What I would give up":"What I wouldn't give up",
+ "Password":"Password",
+ "Confirm Password":"Confirm Password",
+ "Please confirm that you agree to our privacy policy":"Please confirm that you agree to our privacy policy",
+ "Privacy Policy":"Privacy Policy",
+ "Forget Password":"Forget Password"
 }

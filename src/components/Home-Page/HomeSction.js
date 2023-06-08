@@ -13,6 +13,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import HomeFooterInfom from "./HomeFooterInfom/HomeFooterInfom";
 import Home2ndSection from "./Home2ndSection/Home2ndSection";
+import Enrollment from "../Enrollment/Enrollment";
 
 const HomeSction = () => {
   const { t } = useTranslation();
@@ -103,7 +104,7 @@ const HomeSction = () => {
     </div>
   </div>
 </div>
-
+<Enrollment />
 <Home2ndSection />
   <HomeFooterInfom />
  

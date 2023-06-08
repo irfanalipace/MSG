@@ -48,7 +48,38 @@
 
  "The site that works for you":"האתר שעובד בשבילך",
  "Even when you sleep":"גם כשאתה ישן",
- "Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?":"לורם איפסום הוא כינוי לטקסט חסר משמעות לחלוטין - הנקרא לפעמים גם דמי טקסט או ג'יבריש - ומיועד להיות ממוקם בסקיצות עיצוביות - של עלונים, מגזינים, מודעות, אתרי אינטרנט וכו' - במקום הטקסט האמיתי הסופי - עד שיהיה טקסט אמיתי. למה לא להכניס"
+ "Lorem Ipsum is a term for completely meaningless text - sometimes also called demi text or gibberish - and is intended to be placed in design sketches - of brochures, magazines, ads, websites, etc. - instead of the final real text - until there is real text. Why not put it in?":"לורם איפסום הוא כינוי לטקסט חסר משמעות לחלוטין - הנקרא לפעמים גם דמי טקסט או ג'יבריש - ומיועד להיות ממוקם בסקיצות עיצוביות - של עלונים, מגזינים, מודעות, אתרי אינטרנט וכו' - במקום הטקסט האמיתי הסופי - עד שיהיה טקסט אמיתי. למה לא להכניס",
+
+
+ "the site that works for you even when you sleep":"..האתר שעובד בשבילך גם כשאתה ישן ..",
+
+ "First Name":"שם פרטי",
+ "Last Name":"שם משפחה",
+ "Email":"דוא",
+ "Job":"משלוח יד",
+ "an employee":"שכיר",
+ "Independent": "עצמאי",
+ "religious view":"השקפה דתית",
+ "personal situation":"מצב אישי",
+ "Date of birth":"תאריך לידה",
+ "Male": "זכר",
+ "Female":"נקבה",
+ "Sex":"מין",
+ "Hometown":"עיר מגורים",
+ "Health Condition": "מצב בריאותי",
+ 
+ "Phone Number":"מס' טלפון",
+ "Height":"הגובה שלי",
+ "Brief Self Description":"תיאור עצמי בקצרה",
+ "What I would give up":"על מה לא הייתי מוותר/ת",
+ "Password":"סיסמא",
+ "Confirm Password":"אשר/י סיסמא",
+ "Please confirm that you agree to our privacy policy":"אנא אשר/י שאת/ה מסכימ/ה למדיניות הפרטיות שלנו",
+ "Privacy Policy":"מדיניות פרטיות",
+ "Forget Password":"שכחתי סיסמא",
+ "..the site that works for you even when you are asleep":"..האתר שעובד בשבילך גם כשאתה ישןמה"
+ 
+ 
 
 
 
