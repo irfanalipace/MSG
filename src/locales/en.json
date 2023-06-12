@@ -75,5 +75,20 @@
  "Confirm Password":"Confirm Password",
  "Please confirm that you agree to our privacy policy":"Please confirm that you agree to our privacy policy",
  "Privacy Policy":"Privacy Policy",
- "Forget Password":"Forget Password"
+ "Forget Password":"Forget Password",
+
+ "Username or email": "Username or email",
+ "A password":"A password",
+
+ "Keep me inside the site":"Keep me inside the site",
+ "Thanks for signing up":"Thanks for signing up",
+ "The route includes help from the site matchmakers":"The route includes help from the site's matchmakers",
+ "Account: Uriel Gabay":"Account: Uriel Gabay",
+
+ "Subscription level: VIP route subscription for one year":"Subscription level: VIP route subscription for one year",
+ 
+ "Subscription upgrade":"Subscription upgrade",
+ "Go to the site":"Go to the site",
+ "Below are your subscription account details. Email welcome we will send the":"Below are your subscription account details. Email welcome we will send the"
+
 }

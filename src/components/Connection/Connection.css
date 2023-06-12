@@ -1,0 +1,47 @@
+.backgroun-image-data-connection-page-background{
+background-image: url("../../images/home/maskscope-image.png");
+
+}
+.connectionlabel-data {
+    width: 294px;
+    height: 30px;
+}
+.checkbox-connection-checkbox {
+    padding-right: 19px;
+    /* display: flex; */
+    display: flex;
+    justify-content: end;
+}.checkbox-connection-checkbox label{
+color: white;
+}
+.connection-and-checkbox-data-solt{
+    display: flex;
+    width: 343px;
+}
+
+.connection-and-checkbox-data-solt button{
+    color: white;
+    width: 115px;
+    height: 33px;
+    border-radius: 50px;
+    background-color: #f82626;
+    border: none;
+    margin-right: 23px;
+}
+.connection-data {
+    display: flex;
+    margin-left: 94px;
+    margin-bottom: 15px;
+    /* justify-content: space-around; */
+}
+.connection-data span{
+  font-size: 30px;
+  color: white;
+}
+.connectionlabel-data{
+    color:white;
+}
+.heart-image-connection-page-layout img{
+    width: 395px;
+    max-width: 100%;
+}

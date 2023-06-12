@@ -1,0 +1,40 @@
+.thanks-image-layout-data-for-image img{
+    width: 187px;
+    max-width: 100%;
+}
+.thanks-heading-data h3{
+    color: white;
+    font-size: 28px;
+}
+.thanks-heading-data {
+margin-top: 8px;
+margin-bottom: 6px;
+}
+.dev-space-container-text span{
+color: white;
+font-size: 20px;
+}
+.dev-space-container-text{
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+.account-uriel-gabay span{
+    color:white;
+    font-size:15px;
+}
+.account-uriel-gabay{
+    margin-bottom: 7px;
+}
+.thanks-container-main-dev{
+   text-align: center;
+}
+.button-click-subscribe-thanks button {
+    background: transparent;
+    margin-left: 51px;
+    color: white;
+    border: 1px solid white;
+    width: 165px;
+    border-radius: 33px;
+    height: 33px;
+}
