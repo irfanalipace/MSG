@@ -1,0 +1,74 @@
+.backgroun-image-data-connection-page-background{
+    background-image: url("../../images/home/maskscope-image.png");
+    
+    }
+
+    .main-dev-packegs-data-lable {
+        display: flex;
+        justify-content: space-between;
+        /* margin-left: 100px; */
+    }
+    .dev-card-packages-dev {
+        width: 246px;
+        border: 1px solid white;
+        max-width: 100%;
+        height: 389px;
+        max-height: 100%;
+        margin-bottom: 35px;
+    }
+    .text-card1-page{
+        display: flex;
+        justify-content: center;
+        margin-top: 14px;
+        margin-bottom: 10px;
+    }
+    .text-card1-page{
+        color: white;
+    }
+
+    .text-depay-inside-card-proll {
+        background: white;
+        height: 35px;
+        display: flex;
+        padding: 4px;
+        justify-content: center;
+    }
+    .span-dev-space-on-card span{
+        color: white;
+        font-size: 12px;
+    }
+    .span-dev-space-on-card {
+        margin-top: 14px;
+        padding: 17px;
+    }
+    .nst-card-heading {
+        display: flex;
+        justify-content: center;
+        margin-top: -25px;
+        /* margin-bottom: -16px; */
+    }
+    .nst-card-heading span{
+   color: white;
+   font-size: 18px;
+    }
+    .dev-button-packegs-page {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        padding-left: 20px;
+    }
+    .dev-button-packegs-page button{
+      width: 179px;
+    }
+    .dev-card2-pacges{
+        background: white;
+    }
+    .social-network-packeg-dta-social-icon {
+        /* padding-right: 12px; */
+        padding-top: 188px;
+        display: flex;
+        padding-left: 0;
+        flex-direction: column;
+        /* justify-content: end; */
+        top: 23px;
+    }

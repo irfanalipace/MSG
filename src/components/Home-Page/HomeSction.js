@@ -104,7 +104,7 @@ const HomeSction = () => {
     </div>
   </div>
 </div>
-<Enrollment />
+
 <Home2ndSection />
   <HomeFooterInfom />
  

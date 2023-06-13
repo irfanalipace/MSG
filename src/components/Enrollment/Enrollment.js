@@ -12,6 +12,8 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 const Enrollment = () => {
 
   const { t } = useTranslation();
@@ -26,7 +28,8 @@ const Enrollment = () => {
   };
 
   return (
-    <div className="custom-background">
+    <div className="backgroun-image-data-connection-page-background">
+      <Header />
       <div className="container-dev">
       
         <div className="row">
@@ -329,6 +332,7 @@ const Enrollment = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
