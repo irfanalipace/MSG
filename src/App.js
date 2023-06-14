@@ -11,6 +11,7 @@ import Packages from "./components/Packages/Packages";
 import Translator from "./components/Translator";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
+import Contentpage from "./components/ContentPage/Contentpage";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/connection" element={<Connection />} />
           <Route path="/thanks" element={<Thanks />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/content-page" element={<Contentpage />} />
         </Routes>
       </BrowserRouter>
     </div>

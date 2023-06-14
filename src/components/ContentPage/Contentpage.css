@@ -1,0 +1,40 @@
+.content-image-page-data img {
+    width: 100%;
+    height: 230px;
+    max-height: 100%;
+}
+.content-heading-text-page-content {
+    text-align: end;
+    margin-top: 27px;
+    margin-right: 29px;
+}
+.content-heading-text-page-content span{
+    font-size: 28px;
+}
+.content-heading-text-page-content-paragraph {
+    margin-bottom: 6px;
+    text-align: end;
+    margin-top: 6px;
+    width: 606px;
+}
+.content-heading-text-page-content-paragraph span {
+    padding: 20px;
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.content-imagesecoundimage img {
+    height: 349px;
+    max-height: 100%;
+    width: 603px;
+    max-width: 100%;
+    /* margin-top: 6px; */
+    margin-bottom: 31px;
+}
