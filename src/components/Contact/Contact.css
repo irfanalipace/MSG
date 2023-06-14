@@ -1,0 +1,98 @@
+.backgroun-image-data-connection-page-background{
+    background-image: url("../../images/home/maskscope-image.png");
+    
+    }
+
+.contact-field {
+    width: 225px;
+}
+
+.text-group-input-contact-contact textarea {
+    width: 498px;
+    font-family: Inter;
+    padding-top: 15px;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+    max-width: 100%;
+}
+.text-group-input-contact {
+    margin-bottom: 10px;
+}
+.image-fluid-contact {
+    max-width: 100%;
+    width: 396px;
+}
+.dve-button-contact-page button {
+    /* max-width: 100%; */
+    width: 117px;
+    border-radius: 16px;
+    font-size: 13px;
+    color: white;
+    line-height: 11px;
+    background-color: #f82626;
+    background: custom-background;
+    border: none;
+    height: 29px;
+    margin-top: 20px;
+}
+
+.contact-data-image-cotact-container {
+    padding-top: 81px;
+}
+.contact-form-heading-contact {
+    display: flex;
+    justify-content: left;
+    /* margin-left: -70px; */
+    margin-bottom: 25px;
+    margin-left: 191px;
+}
+.contact-form-heading-contact h3{
+   color: white;
+   font-size: 23px;
+}
+.social-network-social-icon-contact {
+    /* padding-top: 260px; */
+    display: flex;
+    /* padding-left: 60px; */
+    flex-direction: row;
+    justify-content: end;
+    top: 23px;
+    margin-top: 29px;
+    margin-right: 18px;
+}
+.display-flex-data-contaent-area{
+    display: flex;
+}
+/* .display-flex-data-contaent-area-social-icon-area-srcoll {
+  margin-right: 34px;
+} */
+
+.display-flex-data-contaent-area-social-icon-area-srcoll li a{
+
+        /* border: 1px solid #f82626; */
+        border-radius: 50%;
+        width: 34px;
+        /* display: flex; */
+        height: 34px;
+        text-align: center;
+        padding: 4px;
+        background: #f82626;
+    
+}
+
+
+.display-flex-data-contaent-area-social-icon-area-srcoll span {
+    color: white;
+    margin-right: 8px;
+    margin-left: 31px;
+}
+
+.social-network-contact-page-dtyel {
+    padding-top: 60px;
+    display: flex;
+    padding-left: 60px;
+    flex-direction: column;
+    /* justify-content: end; */
+    top: 23px;
+}
