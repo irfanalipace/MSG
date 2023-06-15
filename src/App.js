@@ -12,6 +12,7 @@ import Translator from "./components/Translator";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Contentpage from "./components/ContentPage/Contentpage";
+import SearchMatch from "./components/SearchMatch/SearchMatch";
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/thanks" element={<Thanks />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/content-page" element={<Contentpage />} />
+          <Route path="/search-match" element={<SearchMatch />} />
         </Routes>
       </BrowserRouter>
     </div>

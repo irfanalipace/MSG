@@ -1,0 +1,61 @@
+.textlistbox-searchmatch {
+    z-index: 300px;
+    position: relative;
+    height: 86px;
+    margin-top: -40px;
+    box-shadow: 4px 4px 11px 0px;
+    z-index: 30;
+    top: 0;
+    background: white;
+    padding: 22px;
+}
+
+.range-slider-age-date-search {
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+}
+.sj-left-dev-set-data-from-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    margin-bottom: 20px;
+}
+.sj-left-dev-set-data-from-section nav ul li button:active{
+    height: 34px;
+    width: 43px;
+    white-space: 34px;
+    color: white;
+    border-radius: 50%;
+    background: red;
+}
+.sj-left-dev-set-data-from-section nav ul li button:hover{
+    height: 34px;
+    width: 43px;
+    white-space: 34px;
+    color: white;
+    border-radius: 50%;
+    background-color: red ;
+}
+.sj-left-dev-set-data-from-section nav ul li .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: red ;
+    height: 34px;
+    width: 43px;
+    white-space: 34px;
+    color: white;
+    border-radius: 50%;
+}
+.searct-data-container-blog-data-footer{
+    margin-top: 28px;
+}
+.text-container-data-blogd-save {
+    position: relative;
+    z-index: 300;
+    margin-top: -127px;
+    display: flex;
+  
+    justify-content: end;
+}
+.text-container-data-blogd-save span,h3{
+  color: white;
+}
