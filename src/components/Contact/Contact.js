@@ -26,7 +26,7 @@ const Contact = () => {
     };
   return (
   <div className="backgroun-image-data-connection-page-background">
-    <Header />
+  
       <div className="contact-container">
       <div className="contact-header">
         <div className="container contact-data-image-cotact-container ">
@@ -219,7 +219,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    <Footer />
+   
   </div>
   );
 };

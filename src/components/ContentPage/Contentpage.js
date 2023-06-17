@@ -21,7 +21,7 @@ const Contentpage = () => {
     };
   return (
     <div>
-        <Header />
+  
         <div className='content-image-page-data'>
             
             <img src={imagedata} />
@@ -108,7 +108,7 @@ const Contentpage = () => {
             </div>
         </div>
       <HomeFooterInfom />
-      <Footer />
+ 
     </div>
   )
 }

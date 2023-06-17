@@ -220,7 +220,7 @@ const SearchMatch = () => {
     };
   return (
     <div>
-        <Header />
+    
       <div className="content-image-page-data">
         <img src={imagedata} />
         <div className="container">
@@ -514,7 +514,7 @@ const SearchMatch = () => {
         </div>
       </div>
     </div>
-    <Footer />
+
     </div>
   );
 };

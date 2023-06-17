@@ -19,6 +19,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+          
           <Route path="/" element={<Home />} />
           <Route path="/enrollment" element={<Enrollment />} />
           <Route path="/packages" element={<Packages />} />
@@ -28,6 +29,7 @@ function App() {
           <Route path="/content-page" element={<Contentpage />} />
           <Route path="/search-match" element={<SearchMatch />} />
           <Route path="/profile" element={<Profile />} />
+        
         </Routes>
       </BrowserRouter>
     </div>

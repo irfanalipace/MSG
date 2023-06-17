@@ -1,0 +1,202 @@
+.mein-dev-profile-page {
+    text-align: end;
+    padding-top: 22px;
+}
+.button-dev-section-profile-page{
+    padding-top:34px;
+}
+.profile-button-page-apple {
+    width: 124px;
+    color: white;
+    background: red;
+    border-radius: 22px;
+    border: none;
+    padding: 4px;
+    margin-right: 34px;
+}
+.userdashoboard-2::marker{
+    color: #28c528;
+}
+.userdashoboard-2{
+list-style-type: disc;
+}
+.image-container-profile img{
+max-width: 100%;
+max-height: 100%;
+}
+.profile-button-page-apple1 {
+    width: 140px;
+    color: white;
+    background: transparent;
+    border-radius: 22px;
+    border: 1px solid white;
+    max-width: 100%;
+    padding: 4px;
+    margin-right: 34px;
+}
+
+.profile-user-icon-data-dashbord {
+    height: 64px !important;
+    width: 66px !important;
+    border-radius: 50%;
+    height: 44px;
+    background: gray;
+    width: 55px;
+    padding: 12px;
+}
+.profile-icon-image-value{
+
+        height: 56px;
+        width: 44px;
+        margin-left: 38px;
+ 
+}
+.inlie-display-my-items-data-style-item-data {
+    display: flex;
+    justify-content: end;
+  
+}
+.li-item-style-data-items2-image li{
+padding-right: 48px;
+}
+.inline-flex{
+    display:inline-flex;
+}.li-item-row-2-data-class ul{
+list-style-type: disc;
+}
+.inline-flex li, a{
+    color: white;
+}
+.li-item-style-data-items2-image li{
+
+}
+.image-container-profile {
+    position: relative;
+    display: inline-block;
+    
+  }
+  element.style {
+   
+}
+.image-continer-profile-dev-set-data-image-slider {
+    position: relative;
+    margin-top: -140px;
+    z-index: 222;
+}
+  .image-container-profile::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #131212ad; /* Adjust the color and opacity as needed */
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .dev-spaxt-angle-dashord-profile {
+    display: flex;
+    justify-content: end;
+    /* margin-top: 28px; */
+    /* margin-bottom: -23px; */
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+.grid-class-data-profile-image {
+    max-width: 100%;
+    width: 340px;
+    background: #80808026;
+    height: 304px;
+    /* display: contents; */
+    background: rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+    padding-left: 16px;
+    padding-top: 26px;
+}.Portfolio {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* text-align: center; */
+    position: relative;
+    margin: 5px;
+    /* border: 2px solid black; */
+    float: left;
+    /* height: 103px; */
+    /* width: 226px; */
+    max-width: 100%;
+    /* transition-duration: 0.4s; */
+    /* border-radius: 5px; */
+    /* animation: winanim 0.5s; */
+    backface-visibility: visible;
+    /* box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12); */
+}
+.tab-pane {
+    display: flex;
+    justify-content: end;
+}
+.Portfolio img {
+    width: 100%;
+    height: 114px;
+    /* height: auto; */
+    border-radius: 5px;
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 90%;
+    background:black;
+    color:hotpink
+}
+
+.nav {
+    padding:20px;
+    margin-left:340px;
+    margin-top:-30px;
+}
+
+.nav li a { 
+    margin:5px;
+    padding: 15px 50px; 
+    font-size:16px; 
+    color:hotpink; 
+    background: #000;
+    transition-duration: 0.4s;
+}
+.nav a:hover { 
+    background:#333; 
+}
+.nav .active { 
+    background-color:hotpink !important;
+    color:#fff;
+}
+
+@keyframes winanim {
+    0%{opacity:0;transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+    
+}
+
+
+
+.mein-dev-grid-bar-sction {
+    display: flex;
+    justify-content: end;
+}
+
+.input-fileds-inside-edit-option-data-dev-class-data-here input{
+    width: 366px;
+    max-width: 100%;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+.clik-buton-inside-edit-option-class-data-there button {
+    max-width: 100%;
+    width: 103px;
+    background: red;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    height: 27px;
+}

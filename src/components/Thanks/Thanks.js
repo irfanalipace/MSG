@@ -19,7 +19,7 @@ const Thanks = () => {
   };
   return (
     <div className="backgroun-image-data-connection-page-background">
-      <Header />
+
       <div
         className="container"
         style={{ paddingTop: "70px" }}
@@ -99,7 +99,7 @@ const Thanks = () => {
           </div>
         </div>
       </div>
-      <Footer />
+  
     </div>
   );
 };

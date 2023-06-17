@@ -9,10 +9,14 @@ import reportWebVitals from './reportWebVitals';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import Home from './components/Home-Page/Home';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <I18nextProvider i18n={i18n}>
+    <Header />
     <App />
+    <Footer />
   </I18nextProvider>,
 );
 // index.js

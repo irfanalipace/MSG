@@ -28,7 +28,7 @@ const Enrollment = () => {
 
   return (
     <div className="backgroun-image-data-connection-page-background">
-      <Header />
+ 
       <div className="container-dev">
         <div className="row">
           <div className="col-md-1">
@@ -337,7 +337,7 @@ const Enrollment = () => {
           </div>
         </div>
       </div>
-      <Footer />
+     
     </div>
   );
 };

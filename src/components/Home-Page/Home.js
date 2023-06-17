@@ -7,11 +7,11 @@ const Home = () => {
     <div>
         {/* //header section */}
       
-        <Header />
+        
 
        <HomeSction />
       
-       <Footer />
+       
     </div>
   )
 }

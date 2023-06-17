@@ -18,7 +18,7 @@ const Packages = () => {
     };
   return (
     <div className="backgroun-image-data-connection-page-background">
-    <Header />
+
         <div className='container' style={{paddingTop:'78px'}}>
             <div className='main-dev-packegs-data-lable'>
             <div>
@@ -146,7 +146,7 @@ const Packages = () => {
           
             </div>
         </div>
-        <Footer />
+   
     </div>
   )
 }
