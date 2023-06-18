@@ -14,7 +14,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import HomeFooterInfom from "./HomeFooterInfom/HomeFooterInfom";
 import Home2ndSection from "./Home2ndSection/Home2ndSection";
 import Enrollment from "../Enrollment/Enrollment";
-
+import { ManInformation } from "./ManInformation/ManInformation";
+import Home4rthSection from './Home4rthSection/Home4rthSection'
+import Home5thSection from "./Home5thSection/Home5thSection";
 const HomeSction = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -22,8 +24,9 @@ const HomeSction = () => {
     i18n.changeLanguage(lng);
   };
   return (
-    <div style={{backgroundColor: '#8c1616'}}>
-          <div className="background-animation">
+    <div >
+    <div style={{background:'red'}}>
+    <div className="background-animation">
         <div className="heart"></div>
       </div>
       <div className="row">
@@ -104,8 +107,12 @@ const HomeSction = () => {
     </div>
   </div>
 </div>
+    </div>
 
 <Home2ndSection />
+<ManInformation />
+<Home4rthSection />
+<Home5thSection />
   <HomeFooterInfom />
  
     </div>

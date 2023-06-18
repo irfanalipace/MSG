@@ -1,0 +1,26 @@
+.man-image-data-flow-image img {
+    max-width: 100%;
+    width: 432px;
+    height: 369px;
+    max-height: 100%;
+}
+.man-image-data-flow-image {
+    display: flex;
+    justify-content: end;
+    padding: 32px;
+}
+.diev-button-man-information-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+.diev-button-man-information-data button{
+    margin-right: 24px;
+    width: 127px;
+    height: 35px;
+    background: red;
+    border-radius: 22px;
+    border: none;
+    color: white;
+}

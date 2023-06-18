@@ -1,0 +1,16 @@
+.carousel .slide img {
+     width: 110px;
+
+}
+.carousel img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    pointer-events: none;
+}
+.carousel li{
+    width: 173px !important;
+}
+.control-dots{
+    display: none;
+}
