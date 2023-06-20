@@ -1,0 +1,54 @@
+.image-dev-sectionfeth-image img {
+    max-height: 100%;
+    width: 276px;
+    max-width: 100%;
+    height: 187px;
+}
+.top-image-with-image-data{
+display: flex;
+justify-content: space-around;
+}
+
+.dev-span-text-set-space-home {
+    width: 255px;
+    margin: 12px;
+    max-width: 100%;
+    text-align: end;
+}
+
+.dev-span-text-set-space-home span{
+    font-size: 13px;
+  
+}
+
+.image-home-dev-space-data-scrolling{
+    text-align: end;
+}
+.image-home-dev-space-data-scrolling span{
+    font-size: 15px;
+}
+.home-last-dev-section-dev-trreing {
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.backgroung-image-dat-setin-glasses{
+    background-image: url("../../../images/home/Heart_corazón.svg.webp");
+    height: 100%;
+    width: 663px;
+    height: 500px;
+    max-width: 100%;
+}
+
+.image-container-glassespdata{
+
+  }
+  
+  .wine-image {
+    
+    transition: transform 0.3s;
+  }
+  
+  .wine-image:hover {
+    transform: translateX(-71px);
+}

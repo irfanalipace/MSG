@@ -25,7 +25,7 @@ const Home2ndSection = () => {
         
         </div>
         <div className="col-6">
-          <h3>Image Column</h3>
+    
           <img src={videoimage} alt="Image" className="img-fluid" />
         </div>
       </div>

@@ -17,6 +17,7 @@ import Enrollment from "../Enrollment/Enrollment";
 import { ManInformation } from "./ManInformation/ManInformation";
 import Home4rthSection from './Home4rthSection/Home4rthSection'
 import Home5thSection from "./Home5thSection/Home5thSection";
+import Home6thSection from "./Home6thSection/Home6thSection";
 const HomeSction = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -25,7 +26,7 @@ const HomeSction = () => {
   };
   return (
     <div >
-    <div style={{background:'red'}}>
+    <div className="backgroun-image-data-connection-page-background">
     <div className="background-animation">
         <div className="heart"></div>
       </div>
@@ -113,6 +114,7 @@ const HomeSction = () => {
 <ManInformation />
 <Home4rthSection />
 <Home5thSection />
+<Home6thSection />
   <HomeFooterInfom />
  
     </div>
