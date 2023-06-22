@@ -14,9 +14,9 @@ import Footer from './components/Footer/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <I18nextProvider i18n={i18n}>
-    <Header />
+    {/* <Header /> */}
     <App />
-    <Footer />
+    {/* <Footer /> */}
   </I18nextProvider>,
 );
 // index.js

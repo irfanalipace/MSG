@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { useTranslation } from "react-i18next";
 import engimage from '../../images/header/eng.png'
+import { Link } from "react-router-dom";
 import signatureimage from '../../images/header/header-logo.png'
 const Header = () => {
   const { t } = useTranslation();
@@ -34,13 +35,13 @@ const Header = () => {
           <div className="nav-header-class">
             <div className="headers-buttons-class">
               <div>
-                <button className="connection-button-header">{t("connection")}</button>
+                <button className="connection-button-header"><Link to={`connection`}>{t("connection")}</Link></button>
               </div>
               <div>
                 {" "}
                 <button className="subscribe-button-header">
                   {" "}
-                  {t("subscribe-purchase")}
+               <Link to={`/packages`}>{t("subscribe-purchase")}</Link>   
                 </button>
               </div>
               <div>
@@ -57,38 +58,41 @@ const Header = () => {
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item active nav-item-links-style">
                     <a className="nav-link" href="https://nusasatu.com">
-                    {t('search')}
+                  <Link to={`/search-match`}>{t('search')}</Link>  
                       <span className="sr-only">(current)</span>
                     </a>
                   </li>
                   <li className="nav-item nav-item-links-style">
-                    <a className="nav-link" href="#">
-                      {t('contact')}
+                    <a className="nav-link" >
+                  
+                   <Link to={`/contact`}>
+                   {t('contact')}
+                    </Link> 
                     </a>
                   </li>
                   <li className="nav-item nav-item-links-style">
                     <a className="nav-link" href="#">
-                   {t('blog')}
+                  <Link to={`thanks`}>{t('blog')}</Link> 
                     </a>
                   </li>
                   <li className="nav-item nav-item-links-style">
                     <a className="nav-link" href="#">
-                    {t('enrollment')}
+                   <Link to={`/content-page`}>{t('enrollment')}</Link>
                     </a>
                   </li>
                   <li className="nav-item nav-item-links-style">
                     <a className="nav-link" href="#">
-                    {t('about')}
+                   <Link to={`/profile`}> {t('about')}</Link>
                     </a>
                   </li>
                   <li className="nav-item nav-item-links-style">
                     <a className="nav-link" href="#">
-                    {t('Home')}
+                   <Link to={`/`}> {t('Home')}</Link>
                     </a>
                   </li>
                   <li className="nav-item ">
                     <a className="nav-link image-link-header-logo" href="#">
-                     <img src={signatureimage} />
+                    <Link to={`/`}> <img src={signatureimage} /></Link>
                     </a>
                   </li>
                 </ul>

@@ -9,15 +9,20 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Packages from "./components/Packages/Packages";
 import Translator from "./components/Translator";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 import Contact from "./components/Contact/Contact";
 import Contentpage from "./components/ContentPage/Contentpage";
 import SearchMatch from "./components/SearchMatch/SearchMatch";
 import Profile from "./components/Profile/Profile";
 function App() {
   return (
-    <div>
+    <>
+
       <BrowserRouter>
+      <Header />
+
         <Routes>
           
           <Route path="/" element={<Home />} />
@@ -31,8 +36,11 @@ function App() {
           <Route path="/profile" element={<Profile />} />
         
         </Routes>
+        <Footer />
+
       </BrowserRouter>
-    </div>
+
+    </>
   );
 }
 
