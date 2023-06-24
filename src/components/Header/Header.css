@@ -279,4 +279,33 @@ margin-left: 15px;
       opacity: 1;
     }
   } */
+  /* Header.css */
+
+/* Styles for desktop screens */
+.nav-header-class {
+  /* Add your desktop styles here */
+}
+
+/* Styles for mobile screens */
+
+@media (max-width: 767px) {
+  /* Modify the header layout for mobile screens */
+  .nav-header-class {
+    /* Add your mobile styles here */
+  }
   
+  /* Hide the buttons on mobile screens */
+  .headers-buttons-class {
+    display: none;
+  }
+  
+  /* Show the mobile menu toggle button */
+  .navbar-toggler {
+    display: block;
+  }
+  
+  /* Hide the logo on mobile screens */
+  .image-link-header-logo {
+    display: none;
+  }
+}

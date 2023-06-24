@@ -45,3 +45,13 @@ color: white;
     width: 395px;
     max-width: 100%;
 }
+
+@media screen and (max-width:700px) {
+    .connectionlabel-data {
+        /* width: 294px; */
+        width: 100%;
+        height: 30px;
+    }.social-network-enrollment {
+       display: none;
+    }
+}

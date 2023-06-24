@@ -15,7 +15,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <I18nextProvider i18n={i18n}>
     {/* <Header /> */}
-    <App />
+  <div style={{overflow:'hidden'}}>
+  <App />
+  </div>
     {/* <Footer /> */}
   </I18nextProvider>,
 );
