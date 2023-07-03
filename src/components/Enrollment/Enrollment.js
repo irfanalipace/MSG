@@ -14,6 +14,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+
 const Enrollment = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -28,7 +29,6 @@ const Enrollment = () => {
 
   return (
     <div className="backgroun-image-data-connection-page-background">
- 
       <div className="container-dev">
         <div className="row">
           <div className="col-md-1">
@@ -66,28 +66,38 @@ const Enrollment = () => {
             </div>
           </div>
           <div className="col-md-2">
-            <h4>Instructions</h4>
-            <p>
-              Please fill out the form below to enroll in our program. Make sure
-              to provide accurate information.
+            <h4 className="form-label">{t('!Greetings')}</h4>
+            <p  className="form-label" style={{fontSize:'12px'}}>
+             {t('If you are bothered by questions such as - how do you find out? How will I know if he or she is the one for me? Just a little afraid, the feeling of cold feet etc.. and more.. and more.. Is this the place for you?')}
             </p>
+            <div>
+              <p className="form-label" style={{fontSize:'12px'}}>{t('sendpart')}</p>
+            </div>
+            <div>
+              <h5 className="form-label">{t('Contact with matchmakers')}</h5>
+            </div>
           </div>
           <div className="col-md-9">
-            <h5 style={{ textAlign: "end" }}>
+            <h5 style={{ textAlign: "end" }} className="form-label">
               {t("..the site that works for you even when you are asleep")}
             </h5>
-            <div></div>
+
             <form>
               <div className="row">
                 <div className="col-md-1">
                   <div className="mb-3">
-                   
+                    <div style={{marginRight:'12px'}}>
+                      <button className="dve-button-enrollment" >{t('Independent')}</button>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-2">
-                  <div className="mb-3">
-                    <div>
-                      <lable>{t("Job")}</lable>
+                  <div className="mb-3" style={{textAlign:'center'}}>
+                  <div className="job-button-dev-set">
+                    <span>{t("Job")}</span>
+                  </div>
+                    <div className="an-employee-button">
+                   
                       <button className="dve-button2-enrollment">
                         {t("an employee")}
                       </button>
@@ -97,7 +107,7 @@ const Enrollment = () => {
                 <div className="col-md-3">
                   <div className="mb-3">
                     <div className="lable-dev">
-                      <label htmlFor="email" className="form-label">
+                      <label htmlFor="email" className="form-label color-code">
                         {t("Email")}
                       </label>
                     </div>
@@ -139,13 +149,13 @@ const Enrollment = () => {
                   </div>
                 </div>
                 <div className="col-md-2">
-                  <div className="mb-3">
+                  <div className="mb-3 sex-style-dev-section-age" >
                     <div>
                       <div className="position-relative">
-                        <div>
+                        <div >
                           {" "}
                           <span
-                            className="badge position-absolute top-0 start-0"
+                            className="badge position-absolute top-0 start-0 sex-dev-age-paner"
                             style={{
                               marginTop: "15px",
                               backgroundColor: "transparent",
@@ -302,11 +312,11 @@ const Enrollment = () => {
                   <div className="mb-3">
                     <div className="my-button-enrollment">
                       <div>
-                        <a>{t("Forget Password")}</a>
+                        <a className="from-label">{t("Forget Password")}</a>
                       </div>
                       <div className="dev-data-section-privacy">
                         {" "}
-                        <a>{t("Privacy Policy")}</a>
+                        <a className="from-label">{t("Privacy Policy")}</a>
                       </div>
                     </div>
                   </div>
@@ -316,19 +326,13 @@ const Enrollment = () => {
                   <div className="mb-3">
                     <div className="checkbox-enrollment">
                       <label
-                        className="form-check-label"
+                        className="form-check-label from-label"
                         htmlFor="exampleCheckbox"
-                        style={{ marginRight: "6px" }}
+                        style={{ marginRight: "10px", color:'white' }}
                       >
-                        {t(
-                          "Please confirm that you agree to our privacy policy"
-                        )}{" "}
+                        {t("Notifications")}
                       </label>
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        id="exampleCheckbox"
-                      />
+                      <CheckBox className="check from-label" style={{background:'black', color:'white'}} />
                     </div>
                   </div>
                 </div>
@@ -337,7 +341,7 @@ const Enrollment = () => {
           </div>
         </div>
       </div>
-     
+  
     </div>
   );
 };

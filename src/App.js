@@ -16,6 +16,8 @@ import Contact from "./components/Contact/Contact";
 import Contentpage from "./components/ContentPage/Contentpage";
 import SearchMatch from "./components/SearchMatch/SearchMatch";
 import Profile from "./components/Profile/Profile";
+import Profile2 from "./components/Profile/Profile2";
+import MessagePage from "./components/Message/MessagePage";
 function App() {
   return (
     <>
@@ -34,7 +36,8 @@ function App() {
           <Route path="/content-page" element={<Contentpage />} />
           <Route path="/search-match" element={<SearchMatch />} />
           <Route path="/profile" element={<Profile />} />
-        
+          <Route path="/second-profile" element={<Profile2 />} />
+          <Route path="/message" element={<MessagePage />} />
         </Routes>
         <Footer />
 

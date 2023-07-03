@@ -20,34 +20,57 @@ const Packages = () => {
 
   return (
     <div className="backgroun-image-data-connection-page-background">
-      <div className="container" style={{ paddingTop: '78px' }}>
         <div className="main-dev-packegs-data-lable">
           <div className="social-network-enrollment social-network-packeg-dta-social-icon">
             <ul className="">
+              <div className='font-icon-social-icon1'>
               <li>
                 <a className="waves-effect waves-dark" href="#">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>
+              </div>
+              <div className='font-icon-social-icon1'>
               <li>
                 <a className="waves-effect waves-dark" href="#">
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </li>
+              </div>
+              <div className='font-icon-social-icon1'>
               <li>
                 <a className="waves-effect waves-dark" href="#">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
+              </div>
+
+              <div className='font-icon-social-icon1'>
               <li>
                 <a className="waves-effect waves-dark" href="#">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
+              </div>
             </ul>
           </div>
         </div>
+      <div className="container package-containe-dev-section" >
+    
+     <div className='row'>
+    
+        <div className='col-md-12'>
+            <div className='packege-content-data-size-content'>
+             <span style={{color:'white', fontSize:'24px'}}>{t('Route selection')}</span>
+            </div>
+            <div className='packege-content-data-size-content dev-date-package-sets-area'>
+             <span style={{color:'white'}}>{t('We allow a free consultation with the matchmaking team at no cost - click here')}</span>
+            </div>
+        </div>
+     </div>
+     
         <div className="row">
+          
           <div className="col-12 col-md-6 col-lg-3">
             <div className="dev-card-packages-dev">
               <div className="text-card1-page">

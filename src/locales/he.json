@@ -3,7 +3,7 @@
   "signup": "הרשמה",
   "welcome": "ברוכים הבאים לאתר!",
   "connection":"התחברות",
-  "subscribe-purchase" :"רכישת מנוי",
+  "subscribe" :"רכישת מנוי",
   "search" :"חפשו התאמהי",
   "contact" :" צרו קשרי",
   "blog" :" בלוגי",
@@ -120,7 +120,62 @@
  "Dating for religious people chapter 2":"הכרויות לדתיים פרק ב",
  "If the relevant text does not yet exist in the design sketch phase, it is not recommended to place other real text. The reason is that when presenting": "אם בשלב הסקיצה העיצובית עדיין לא קיים הטקסט הרלוונטי, לא מומלץ למקם טקסט אמיתי אחר. הסיבה היא, כי בעת הצגת",
 
- "our blog":"הבלוג שלנו"
+ "our blog":"הבלוג שלנו",
+ "Route selection":"בחירת מסלול",
+ "We allow a free consultation with the matchmaking team at no cost - click here":"אנו מאפשרים שיחת ייעוץ עם צוות השדכנים בחינם ללא עלות -לחץ כאן",
+ "City":"עיר",
+ "Israel is an Israeli":"ישראל ישראלי",
+ "Connected":"מחובר",
+ "38 years old, Petah Tikva":"בן 38, פתח תקווה",
+ "VIP route subscription for one year":"מסלול VIP מנוי לשנה",
+
+ 
+ "Account Settings":"הגדרות חשבון",
+ "Change password":"שנה סיסמא",
+ "Private messages":"הודעות פרטיות",
+ "privacy":"פרטיות",
+ "delete account":"מחיקת חשבון",
+ "disconnection":"התנתקות",
+
+ "Home page » Israeli Israeli":"עמוד הבית     »     ישראלי ישראלי",
+ "my gallery":"הגלרייה שלי",
+ "A description of myself":"תיאור על עצמי",
+ "Serious, penitent, orthodox view. Honest, reliable, diligent, values, good heart. Works and sets times for Torah and prayer. Love the name and the Torah. It is not possible for a man without a woman and a woman without a man.":"רציני , בעל תשובה , השקפה חרדית. ישר, אמין, חרוץ , ערכי , לב טוב . עובד וקובע עיתים לתורה ותפילה . אוהב את השם והתורה. אי אפשר לגבר בלא אישה ולאישה בלא גבר.",
+ "What am I looking for in my partner?":"?מה אני מחפש/ת בבן הזוג שלי",
+ "partner":"בחור רציני , בעל תשובה מזה כשמונה שנים , בעל השקפה חרדית. אדם ישר, אמין, חרוץ , ערכי , לב טוב .עובד וקובע עיתים לתורה ותפילה . אוהב את השם והתורה.רוצה להשלים את החסר בחיים עם אישה כי אי אפשר לגבר בלא אישה ולאישה בלא גבר , באמת ובתמים ובשמחה .",
+ "Children: None":"ילדים: אין",
+
+ "Prayer habits?: Once a day":"הרגלי תפילה?: פעם ביום",
+ "Religious view: traditional":"השקפה דתית: מסורתי",
+ "Shabbat observant?: Yes":"שומר/ת שבת?: כן",
+ "Occupation: graphic designer":"עיסוק: מעצב גרפי",
+ "Religious background from home:":"רקע דתי מהבית:",
+ "secular":"חילוני",
+ "keeping":"שמירה",
+ "Education: seminary":"השכלה: סמינר",
+ "Military Service":"שירות: צבאי",
+ "Body structure: shapely":"מבנה גוף: חטוב",
+ "Hobbies: You have not added a description":"תחביבים: לא הוספת תיאור",
+ "Smoker: Yes":"מעשנ/ת: כן",
+ "Education: Bachelor degree":"השכלה: תואר ראשון",
+ "Is there an excess living area?: Yes":"האם קיים אזור מגורים מעודף ?: כן",
+ "Marriage Chapter 2?: Yes":"נישואין פרק ב'?: כן",
+ "Smoker: No":"מעשנ/ת: לא",
+ "How long have you been divorced?: 7 years":"כמה זמן גרוש/ה?: 7 שנים",
+ "Prayer habits: 3":"הרגלי תפילה: 3",
+ "Children?: 1":"ילדים?: 1",
+ "Background from home: traditional":"רקע מהבית: מסורתי",
+ "Interested in mentoring grooms?: Yes":"מעוניין בהדרכת חתנים?: כן",
+ "Hobbies: studying Torah":"תחביבים: ללמוד תורה",
+ "Excess pastime: a trip":"בילוי מעודף: טיול",
+ "Send a message":"שלח הודעה",
+ "...write a message":"...כתבו הודעה",
+ "!Greetings":"!שלום וברכה",
+ "If you are bothered by questions such as - how do you find out? How will I know if he or she is the one for me? Just a little afraid, the feeling of cold feet etc.. and more.. and more.. Is this the place for you?":"אם מטרידות אתכם שאלות כגון- כיצד מבררים? איך אדע שהוא או היא האחד או האחת בשבילי? סתם קצת חוששים, תחושת ”רגליים קרות” וכד’..  ועוד.. ועוד..כאן זה המקום בשבילכם?",
+ "sendpart": "אז איך זה עובד בעצם? מלאו את הטופס המצורף לדף כתבו לנו אימייל איזו הכוונה אתם צריכים? ומס’ טלפון להתקשרות בחזרה, עם זמן מתאים.",
+ "Contact with matchmakers":"התקשרות עם שדכנים"
+
+
 
 
  

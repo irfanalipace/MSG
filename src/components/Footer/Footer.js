@@ -21,7 +21,8 @@ const Footer = () => {
   <div className="container py-4">
 <div className='row'>
 <div className='col-md-7'>
-<div style={{display:'flex', justifyContent:'end'}}>
+<div  className='mobile-short-dsta'>
+
 <h4 className='links-footer-heading'>{t('Links')}</h4>
 </div>
 </div>

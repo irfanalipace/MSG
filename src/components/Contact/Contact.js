@@ -185,7 +185,7 @@ const Contact = () => {
           </div>
           <div className="row">
            <div className="col-md-7 col-lg-7 col-sm-12">
-           <div className="social-network-social-icon-contact">
+           <div className="social-network-social-icon-contact social-network-contact-page-dtyel">
               <ul className="display-flex-data-contaent-area display-flex-data-contaent-area-social-icon-area-srcoll">
             
                 

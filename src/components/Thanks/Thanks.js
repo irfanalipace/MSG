@@ -91,7 +91,7 @@ const Thanks = () => {
             <div className="button-click-subscribe-thanks">
                 <div>
                     <button>{t('Go to the site')}</button>
-                    <button>{t('Subscription upgrade')}</button>
+                    <button>{t('Subscription')}</button>
                 </div>
                
             </div>

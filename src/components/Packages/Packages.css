@@ -25,7 +25,10 @@
     .text-card1-page{
         color: white;
     }
-
+.packege-content-data-size-content{
+    display: flex;
+    justify-content: center;
+}
     .text-depay-inside-card-proll {
         background: white;
         height: 35px;
@@ -60,8 +63,14 @@
     .dev-button-packegs-page button{
       width: 179px;
     }
+    .dev-date-package-sets-area{
+        margin-bottom: 21px;
+    }
     .dev-card2-pacges{
         background: white;
+    }
+    .package-containe-dev-section{
+        margin-top: -260px;
     }
     .social-network-packeg-dta-social-icon {
         /* padding-right: 12px; */
@@ -73,3 +82,11 @@
         top: 23px;
     }
   
+    @media screen and (max-width:600px) {
+        .social-network-enrollment{
+            display: none;
+        }.package-containe-dev-section{
+            margin-top: 20px;
+            margin-left: 21px;
+        }
+    }

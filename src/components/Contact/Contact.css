@@ -96,3 +96,10 @@
     /* justify-content: end; */
     top: 23px;
 }
+@media screen and (max-width:600px) {
+    .social-network-contact-page-dtyel{
+        display: none;
+    }.contact-field {
+        width: 100%;
+    }
+}

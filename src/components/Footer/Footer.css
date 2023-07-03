@@ -53,3 +53,15 @@ line-height: normal;
 }.footer-social-footer li{
     margin-right: 28px
 }
+.mobile-short-dsta{
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width:600px) {
+    .footer-text-mession-line {
+    text-align: left;
+    }.mobile-short-dsta {
+        display: flex;
+        justify-content: left;
+    }
+}

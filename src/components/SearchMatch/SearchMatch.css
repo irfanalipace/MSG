@@ -59,3 +59,25 @@
 .text-container-data-blogd-save span,h3{
   color: white;
 }
+@media screen and (max-width:600px) {
+    .textlistbox-searchmatch {
+        z-index: 300px;
+        position: relative;
+        height: 310px;
+        margin-top: -40px;
+        box-shadow: 4px 4px 11px 0px;
+        z-index: 30;
+        top: 0;
+        background: white;
+        padding: 22px;
+    }.mobile-dev-space-responsive-data{
+        margin: 6px;
+    }.range-data-search-form  {
+        width: 100% !important;
+      
+    }.mobile-dev-space-responsive-data .css-187mznn-MuiSlider-root {
+        padding: 0px 0;
+    }.image-fooetr-blog img{
+        max-width: 100%;
+    }
+}

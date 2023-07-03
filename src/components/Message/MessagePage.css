@@ -1,0 +1,53 @@
+.profile-wih-image {
+    display: flex;
+    justify-content: end;
+}.profile-data-dashboard-secound-image-profile {
+   width: 23px !important;
+    border-radius: 50%;
+    height: 21px !important;
+    background: gray;
+   
+    padding: 12px;
+    margin-left: 15px;
+}
+.container-message-data-area-sold {
+    background: gainsboro;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+.ferveting-dev-section-agert{
+    margin-right: 16px;
+    border-color: black;
+    border-radius: 40%;
+    border: 1px solid black;
+    /* background: white; */
+    padding: 2px;
+}
+
+.message-section-container-dev {
+    border: 1px solid gainsboro;
+    height: 400px;
+    margin-bottom: 26px;
+}
+.dev-section-areating-gelling{
+    margin-top: 340px;
+}.container-message-type-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px) {
+    .ferveting-dev-section-agert-display-nont{
+        display: none;
+    }.connection-button-message-packege-data {
+        color: white;
+        width: 123px;
+        height: 38px;
+        border-radius: 50px;
+        background-color: #f82626;
+        border: none;
+        margin-right: 23px;
+        margin-bottom: 8px;
+    }
+}

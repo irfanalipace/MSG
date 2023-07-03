@@ -25,28 +25,37 @@ const Connection = () => {
         <div className="row">
           <div className="col-12 col-md-2">
             <div className="social-network-enrollment">
-              <ul className="">
-                <li>
-                  <a className="waves-effect waves-dark" href="#">
-                    <FontAwesomeIcon icon={faEnvelope} />
-                  </a>
-                </li>
-                <li>
-                  <a className="waves-effect waves-dark" href="#">
-                    <FontAwesomeIcon icon={faWhatsapp} />
-                  </a>
-                </li>
-                <li>
-                  <a className="waves-effect waves-dark" href="#">
-                    <FontAwesomeIcon icon={faFacebook} />
-                  </a>
-                </li>
-                <li>
-                  <a className="waves-effect waves-dark" href="#">
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
-                </li>
-              </ul>
+            <ul className="">
+              <div className='font-icon-social-icon1'>
+              <li>
+                <a className="waves-effect waves-dark" href="#">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </li>
+              </div>
+              <div className='font-icon-social-icon1'>
+              <li>
+                <a className="waves-effect waves-dark" href="#">
+                  <FontAwesomeIcon icon={faWhatsapp} />
+                </a>
+              </li>
+              </div>
+              <div className='font-icon-social-icon1'>
+              <li>
+                <a className="waves-effect waves-dark" href="#">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              </div>
+
+              <div className='font-icon-social-icon1'>
+              <li>
+                <a className="waves-effect waves-dark" href="#">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+              </div>
+            </ul>
             </div>
           </div>
           <div className="col-12 col-md-4">

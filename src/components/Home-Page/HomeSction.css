@@ -106,4 +106,14 @@ line-height: normal;
       top: 40%;
     }
   }
-  
+  @media screen and (max-width:800px) {
+    .social-network{
+        display: none;
+    }.image-data-home-page img {
+        width: 271px;
+        margin-top: 0px;
+        
+    }.home-page-rest-dev-setction{
+        padding: 56px;
+    }
+  }

@@ -38,3 +38,8 @@
     /* margin-top: 6px; */
     margin-bottom: 31px;
 }
+@media screen and (max-width:600px) {
+    .content-heading-text-page-content-paragraph {
+     max-width: 100%;
+    }
+}

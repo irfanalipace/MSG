@@ -4,10 +4,10 @@
     }
 
 .container-dev{
-    padding-top: 68px;
+    padding: 68px;
 }
 .social-network-enrollment {
-    padding-top: 260px;
+    padding-top: 280px;
     display: flex;
     padding-left: 60px;
     flex-direction: column;
@@ -23,12 +23,20 @@
     margin-bottom: 13px;
     padding-top: 5px;
 }
+.dev-date-image-enrolment{
+    display: flex;
+    justify-content: left;
+}
 .lable-dev{
     text-align: end;
 }/* Enrollment.css */
 .custom-background {
   /* background-color: white; */
 }
+.job-button-dev-set span{
+color: white;
+}
+
 .dve-button-enrollment {
     /* max-width: 100%; */
     width: 91px;
@@ -42,18 +50,24 @@
     height: 29px;
     margin-top: 33px;
 }.dve-button2-enrollment {
-    padding-right: 63px;
+    /* padding-right: 63px; */
     width: 91px;
     border-radius: 16px;
     font-size: 13px;
-    color: black;
+    border: 1px solid white!important;
+    /* color: black; */
+    color: white;
     line-height: 11px;
     background-color: #f82626;
     background: transparent;
     border: none;
     height: 29px;
     margin-top: 33px;
-}.checkbox-enrollment{
+}
+.an-employee-button{
+    margin-top: -23px;
+}
+.checkbox-enrollment{
     text-align: end;
 }.text-checkbox-alignment{
     color: black;
@@ -85,4 +99,14 @@
     /* padding-top: 5px; */
 }.form-check-label{
     font-size: 12px;
+}
+.form-label{
+    color: white;
+}
+.sex-style-dev-section-age{
+text-align: center;
+}
+.sex-dev-age-paner{
+margin-left: 34px;
+
 }

@@ -45,7 +45,14 @@ color: white;
     width: 395px;
     max-width: 100%;
 }
-
+.social-network-enrollment {
+    padding-top: 148px;
+    display: flex;
+    padding-left: 60px;
+    flex-direction: column;
+    /* justify-content: end; */
+    top: 23px;
+}
 @media screen and (max-width:700px) {
     .connectionlabel-data {
         /* width: 294px; */

@@ -4,6 +4,7 @@
 }
 .button-dev-section-profile-page{
     padding-top:34px;
+    display: flex;
 }
 .profile-button-page-apple {
     width: 124px;
@@ -17,6 +18,12 @@
 .userdashoboard-2::marker{
     color: #28c528;
 }
+
+.my-gellery-data-photo-image {
+    text-align: right;
+    margin-right: 41px;
+
+}
 .userdashoboard-2{
 list-style-type: disc;
 }
@@ -25,7 +32,7 @@ max-width: 100%;
 max-height: 100%;
 }
 .profile-button-page-apple1 {
-    width: 140px;
+    width: 85%;
     color: white;
     background: transparent;
     border-radius: 22px;
@@ -185,7 +192,7 @@ list-style-type: disc;
 }
 
 .input-fileds-inside-edit-option-data-dev-class-data-here input{
-    width: 366px;
+  
     max-width: 100%;
     border-radius: 12px;
     border: 1px solid gray;
@@ -199,4 +206,50 @@ list-style-type: disc;
     border: none;
     font-size: 14px;
     height: 27px;
+}
+.profile2-thumb-image{
+    background: white;
+    color: darkgray;
+    border: 4px;
+    border-radius: 60px;
+    width: 21px;
+    height: 27px;
+}
+.dev-set2-profile-image-section {
+    display: flex;
+    justify-content: end;
+    margin-top: 74px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+.container-profile2-sction-image{
+  
+    margin-top: -163px;
+} 
+@media screen and (max-width:800px) {
+    .profile-imaga-data-show-hide{
+        display: none;
+    }.mein-dev-grid-bar-sction {
+  
+        margin: 12px;
+    }.mein-dev-grid-bar-sction .tab-pane {
+        display: flex;
+        justify-content: end;
+        margin-left: 10px;
+    }.input-fileds-inside-edit-option-data-dev-class-data-here input {
+       display: none;
+      
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .image-container-profile img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 213px;
+    }.header-profile-set-image{
+        display: none;
+    }
 }

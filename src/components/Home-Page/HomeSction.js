@@ -31,7 +31,7 @@ const HomeSction = () => {
         <div className="heart"></div>
       </div>
       <div className="row">
-  <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+  <div className="col-lg-2 col-md-3 col-sm-12 ">
     <div className="social-network">
       <ul className="">
         <div className="font-icon-social-icon">
@@ -65,7 +65,7 @@ const HomeSction = () => {
       </ul>
     </div>
   </div>
-  <div className="col-lg-5 col-md-6 col-sm-8 col-6">
+  <div className="col-lg-5 col-md-6 col-sm-12 ">
     <div className="heartimage-home-page">
       <img src={heartimage} />
     </div>
@@ -79,8 +79,9 @@ const HomeSction = () => {
       <img src={heartimage1} alt='' />
     </div>
   </div>
-  <div className="col-lg-5 col-md-12">
-    <div className="image-data-home-page">
+  <div className="col-lg-5 col-md-12 col-sm-12">
+  <div className="home-page-rest-dev-setction">
+  <div className="image-data-home-page">
       <img src={imagelogoheader} />
     </div>
     <div className="matchmaker-dev">
@@ -106,6 +107,7 @@ const HomeSction = () => {
         </button>
       </div>
     </div>
+  </div>
   </div>
 </div>
     </div>

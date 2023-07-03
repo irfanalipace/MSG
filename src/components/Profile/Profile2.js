@@ -6,11 +6,14 @@ import {
   faAngleDoubleLeft,
   faEdit,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+
 import { useTranslation } from "react-i18next";
 import stockdata from "../../images/home/istock.png";
 import imagedata from "../../images/home/content-image.png";
 import { Link } from "react-router-dom";
-const Profile = () => {
+const Profile2 = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
@@ -26,13 +29,13 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="container image-continer-profile-dev-set-data-image-slider">
+      <div className="container image-continer-profile-dev-set-data-image-slider container-profile2-sction-image">
         <div className="row">
           <div className="col-md-4">
             <div className="button-dev-section-profile-page">
-              <button className="profile-button-page-apple">{t('subscribe')}</button>
+              <button className="profile-button-page-apple">{t('Connected')}</button>
 
-              <button className="profile-button-page-apple1">{t('VIP route subscription for one year')}</button>
+              <FontAwesomeIcon icon={faThumbsUp} aria-hidden="true" className="profile2-thumb-image"/>
             </div>
           </div>
 
@@ -60,7 +63,7 @@ const Profile = () => {
           </div>
         </div>
 
-        <div className="row header-profile-set-image" style={{ marginTop: "17px" }}>
+        {/* <div className="row header-profile-set-image" style={{ marginTop: "17px" }}>
           <div className="col-md-6">
             <div>
               <ul className="inline-flex li-item-style-data-items2-image" >
@@ -91,8 +94,8 @@ const Profile = () => {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="dev-spaxt-angle-dashord-profile">
+        </div> */}
+        <div className="dev-spaxt-angle-dashord-profile dev-set2-profile-image-section">
           <span>
             {" "}
           {t('Home page » Israeli Israeli')}
@@ -248,10 +251,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+       
             </div>
             <div>
-             <span>{t('Prayer habits?: Once a day')}</span>
+             <span>{t('Is there an excess living area?: Yes')}</span>
             </div>
          </div>
             <hr></hr>
@@ -264,11 +267,11 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+       
     
             </div>
             <div>
-            <span>{t('Children: None')}</span>
+            <span>{t('Education: Bachelor degree')}</span>
             </div>
          </div>
             <hr></hr>
@@ -283,11 +286,11 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+      
     
             </div>
             <div>
-              <span> {t('Shabbat observant?: Yes')}</span>
+              <span> {t('Marriage Chapter 2?: Yes')}</span>
             </div>
          </div>
             <hr></hr>
@@ -300,11 +303,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
-    
+        
             </div>
             <div>
-                {t('Religious view: traditional')}
+                {t('Body structure: shapely')}
             </div>
          </div>
             <hr></hr>
@@ -320,18 +322,13 @@ const Profile = () => {
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
 
            
-         <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
-    
-            </div>
+       
             <div className="clik-buton-inside-edit-option-class-data-there">
-            <button>{t('keeping')}</button> 
+           
             </div>
-            <div className="input-fileds-inside-edit-option-data-dev-class-data-here">
-                <input type="text" name='name' placeholder={t('secular')}/>
-            </div>
+          
             <div>
-              <span>{t('Religious background from home:')}</span>
+              <span>{t('How long have you been divorced?: 7 years')}</span>
             </div>
          </div>
             <hr></hr>
@@ -342,12 +339,12 @@ const Profile = () => {
           </div>
           <div className="col-md-6 col-sm-12">
            <div >
-         <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
+           <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+        
             </div>
             <div>
-              <span>{t('Occupation: graphic designer')}</span>
+            <span>{t('Smoker: No')}</span>
             </div>
          </div>
             <hr></hr>
@@ -362,10 +359,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+        
             </div>
             <div>
-              <span>{t('Military Service')}</span>
+              <span>{t('Children?: 1')}</span>
             </div>
          </div>
             <hr></hr>
@@ -378,11 +375,11 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+       
     
             </div>
             <div>
-              {t('Education: seminary')}
+              {t('Prayer habits: 3')}
             </div>
          </div>
             <hr></hr>
@@ -397,10 +394,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+      
             </div>
             <div>
-              <span>{t('Hobbies: You have not added a description')}</span>
+              <span>{t('Interested in mentoring grooms?: Yes')}</span>
             </div>
          </div>
             <hr></hr>
@@ -413,10 +410,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+     
             </div>
             <div>
-               <span>{t('Body structure: shapely')}</span>
+               <span>{t('Background from home: traditional')}</span>
             </div>
          </div>
             <hr></hr>
@@ -431,10 +428,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}></button> 
+     
             </div>
             <div>
-             
+            <span>{t('Excess pastime: a trip')}</span>
             </div>
          </div>
             <hr></hr>
@@ -447,10 +444,10 @@ const Profile = () => {
            <div >
          <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'11px', paddingRight:'11px'}}>
          <div>
-         <button style={{border:'none',background:'none'}}><FontAwesomeIcon icon={faEdit} /></button> 
+      
             </div>
             <div>
-                <span>{t('Smoker: Yes')}</span>
+                <span>{t('Hobbies: studying Torah')}</span>
             </div>
          </div>
             <hr></hr>
@@ -465,4 +462,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profile2;
