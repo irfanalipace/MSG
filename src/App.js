@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Packages from "./components/Packages/Packages";
 import Translator from "./components/Translator";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import GoogleTranslate from './GoogleTranslate'
 
 import Contact from "./components/Contact/Contact";
 import Contentpage from "./components/ContentPage/Contentpage";
@@ -24,7 +24,7 @@ function App() {
 
       <BrowserRouter>
       <Header />
-
+    
         <Routes>
           
           <Route path="/" element={<Home />} />
@@ -39,6 +39,7 @@ function App() {
           <Route path="/second-profile" element={<Profile2 />} />
           <Route path="/message" element={<MessagePage />} />
         </Routes>
+      
         <Footer />
 
       </BrowserRouter>

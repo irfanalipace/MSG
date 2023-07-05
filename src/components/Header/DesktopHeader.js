@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import engimage from "../../images/header/eng.png";
 import { Link } from "react-router-dom";
 import signatureimage from "../../images/header/header-logo.png";
+import GoogleTranslate from "../../GoogleTranslate";
 export const DesktopHeader = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     const { t } = useTranslation();
@@ -45,6 +46,7 @@ export const DesktopHeader = () => {
       >
         <img src={engimage} alt="English" /> English
       </button>
+      
     </div>
   </div>
   <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>

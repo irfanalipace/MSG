@@ -125,6 +125,7 @@ const Header = () => {
         <div className="mobile-component">
           {/* Mobile-specific component */}
           <MobileHeader />
+          
         </div>
       ) : (
         <div className="desktop-component">

@@ -1,5 +1,5 @@
-.header-desktop-component {
-    background-image: url(http://localhost:3000/static/media/maskscope-image.bd2ebd1eb36287492b8f.png);
+.header-desktop-component .MuiAppBar-colorPrimary{
+    background-image: url(http://localhost:3000/static/media/maskscope-image.bd2ebd1eb36287492b8f.png) !important;
 }
 
 .menu-bar-formobile-screen{
@@ -16,4 +16,7 @@
 }
 .menu-bar-formobile-screen {
     display: flex;
+}
+.english-button-mobile-screen{
+    margin-left: 12px;
 }
